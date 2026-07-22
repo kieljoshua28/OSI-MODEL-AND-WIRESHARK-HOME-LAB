@@ -1,0 +1,30 @@
+The OSI Model
+
+Layer 1: Physical Layer
+-	Signaling, cabling, connectors.
+-	This layer isn’t about protocols
+-	If problem arise  - Fix cabling, run loopback tests, etc. 
+
+Layer 2: Data Link Layer
+-	Used to communicate between two devices on the network
+-	Often refer as MAC address layer (Media access control address) hardware address of the particular adapter card.
+-	Extended unique identifier
+
+Layer 3: Network Layer
+-	The “routing” layer – how to forward traffic
+-	IP, router, packet
+
+Layer 4: Transport Layer
+-	The “post office” layer
+-	TCP and UDP 
+
+Layer 5: Session Layer
+-	Start, stop, restart – communication management between devices
+-	Control protocols, tunneling protocols
+
+Layer 6: Presentation Layer
+-	Character encoding
+-	Application encryption (SSL/TLS)
+
+Layer 7: Application Layer
+-	The layer we see (HTTP, FTP, DNS, POP3)
